@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="youtube-clone.css">
+    <link rel="icon" type="image/x-icon" href="youtube.png">
+</head>
+<body>
+    <section class="main-frame">
+
+        <section class="header-container">
+
+            <div class="menu-logo-container">
+                
+                <div class="menu">
+                    <a href="#"><img id="menu" src="menu.png" height="21px" width="18px"></a>
+                </div>
+                <div class="youtube-logo">
+                    <a href="#"><img src="youtube-logo.png" height="20px" width="90px"></a>
+                </div>
+                
+            </div>
+
+
+            <div class="search-container">
+                
+                <div >
+                    <input class="search-bar" placeholder="Search ">
+                </div>
+                <button id="search">
+                        <img id="search-logo" src="search.png" height="21px">
+                </button>
+
+            </div>
+
+            <div class="Mic">
+                <a href="#"><img id="mic" src="mic.png"></a>
+            </div>
+
+            <div class="recorder">
+                <a href="#"><img src="rec.png"></a>
+            </div>
+
+            <div class="subscribe">
+                <a href="#"></a><img src="subs.png"></a>
+            </div>
+
+            <div class="profile">
+                <a href="#"><img src="male.png" height="30">   </a>
+            </div>
+
+        </section>
+
+        <section class="action-container">
+
+            <section class="side-bar-container">
+
+                <div class="first-container">
+
+                    <a href="#">
+                        <div id="home">
+                            <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="22" height="22" viewBox="0 0 48 48">
+                                <path d="M39.5,43h-9c-1.381,0-2.5-1.119-2.5-2.5v-9c0-1.105-0.895-2-2-2h-4c-1.105,0-2,0.895-2,2v9c0,1.381-1.119,2.5-2.5,2.5h-9	C7.119,43,6,41.881,6,40.5V21.413c0-2.299,1.054-4.471,2.859-5.893L23.071,4.321c0.545-0.428,1.313-0.428,1.857,0L39.142,15.52	C40.947,16.942,42,19.113,42,21.411V40.5C42,41.881,40.881,43,39.5,43z"></path>
+                            </svg>
+                            <span id="hometext"> Home </span>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                         <div id="shorts">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 14.65V9.35L15 12L10 14.65ZM17.77 10.32C17 10 16.57 9.82 16.57 9.82L18 9.06C19.84 8.1 20.53 5.83 19.56 4C18.59 2.17 16.32 1.47 14.49 2.44L6.00001 6.94C4.71001 7.62 3.93001 8.98 4.00001 10.43C4.07001 11.85 4.93001 13.1 6.22001 13.68C6.25001 13.69 7.42001 14.18 7.42001 14.18L6.00001 14.93C4.17001 15.9 3.47001 18.17 4.44001 20C5.41001 21.83 7.68001 22.53 9.51001 21.56L18.01 17.06C19.3 16.38 20.07 15.02 20 13.57C19.93 12.15 19.06 10.89 17.77 10.32V10.32ZM17.54 16.18L9.04001 20.68C7.70001 21.39 6.03001 20.88 5.32001 19.54C4.61001 18.2 5.12001 16.53 6.46001 15.82L8.50001 14.74V13.53L7.81001 13.25L6.70001 12.79C5.71001 12.38 5.05001 11.44 5.00001 10.38C4.95001 9.32 5.52001 8.32 6.46001 7.82L14.96 3.32C16.3 2.61 17.97 3.12 18.68 4.46C19.39 5.8 18.88 7.47 17.54 8.18L15.5 9.26V10.47L17.3 11.21C18.29 11.62 18.95 12.56 19 13.62C19.05 14.68 18.48 15.68 17.54 16.18Z" fill="#181818"/>
+                            </svg>                                                              
+                            <span id="shortstext" >Shorts </span>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="Subscriptions">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 18V12L15 15L10 18ZM17 3H7V4H17V3ZM20 6H4V7H20V6ZM22 9H2V21H22V9ZM3 10H21V20H3V10Z" fill="#181818"/>
+                                </svg>
+                                
+                            <span id="subscript-text">Subscriptions </span>
+                        </div>
+                    </a>
+            
+                </div>
+
+                <hr class="div-line">
+                
+                <div class="next-container">
+                    <a href="#">
+                        <div id="library">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11 7L17 10.5L11 14V7ZM18 20H4V6H3V21H18V20ZM21 18H6V3H21V18ZM7 17H20V4H7V17Z" fill="#181818"/>
+                                </svg>    
+                            <span id="library-text">Library</span>
+                        </div>
+                    </a>
+                
+                    <a href="#">
+                        <div id="history">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.97 16.95L10 13.87V7H12V12.76L16.03 15.25L14.97 16.95ZM22 12C22 17.51 17.51 22 12 22C6.49002 22 2.00002 17.51 2.00002 12H3.00002C3.00002 16.96 7.04002 21 12 21C16.96 21 21 16.96 21 12C21 7.04 16.96 3 12 3C8.81002 3 5.92002 4.64 4.28002 7.38C4.17002 7.56 4.06002 7.75 3.97002 7.94C3.96002 7.96 3.95002 7.98 3.94002 8H8.00002V9H1.96002V3H2.96002V7.74C3.00002 7.65 3.03002 7.57 3.07002 7.49C3.18002 7.27 3.30002 7.07 3.42002 6.86C5.22002 3.86 8.51002 2 12 2C17.51 2 22 6.49 22 12Z" fill="#181818"/>
+                                </svg>    
+                            <span id="history-text">History</span>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div id="your-videos">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10 8L16 12L10 16V8ZM21 3V21H3V3H21ZM20 4H4V20H20V4Z" fill="#181818"/>
+                            </svg>                                   
+                            <span id="videos-text">Your Videos</span>
+                        </div>
+                    </a>
+                        
+                    
+                        <a href="#">
+                            <div id="watch-later">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.97 16.95L10 13.87V7H12V12.76L16.03 15.25L14.97 16.95ZM12 3C7.04 3 3 7.04 3 12C3 16.96 7.04 21 12 21C16.96 21 21 16.96 21 12C21 7.04 16.96 3 12 3ZM12 2C17.52 2 22 6.48 22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2Z" fill="#181818"/>
+                                </svg>                                   
+                                <span id="watchlater-text">Watch Later</span>
+                            </div>
+                        </a>
+                        
+                    <a href="#">
+                            <div id="liked">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.77 11H14.54L16.06 6.06C16.38 5.03 15.54 4 14.38 4C13.8 4 13.24 4.24 12.86 4.65L7 11H3V21H7H8H17.43C18.49 21 19.41 20.33 19.62 19.39L20.96 13.39C21.23 12.15 20.18 11 18.77 11ZM7 20H4V12H7V20ZM19.98 13.17L18.64 19.17C18.54 19.65 18.03 20 17.43 20H8V11.39L13.6 5.33C13.79 5.12 14.08 5 14.38 5C14.64 5 14.88 5.11 15.01 5.3C15.08 5.4 15.16 5.56 15.1 5.77L13.58 10.71L13.18 12H14.53H18.76C19.17 12 19.56 12.17 19.79 12.46C19.92 12.61 20.05 12.86 19.98 13.17Z" fill="#181818"/>
+                                </svg>                                   
+                                <span id="liked-text">Liked Videos</span>
+                            </div>
+                    </a>
+
+                    <a href="#">
+                            <div id="showmore">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 15.7L5.59998 9.4L6.29998 8.7L11.9 14.3L17.5 8.7L18.2 9.4L12 15.7Z" fill="#181818"/>
+                                </svg>                                    
+                                <span id="showmore-text">Show More</span>
+                            </div>
+                    </a>
+                    
+                    <hr class="div-line">
+
+                    <div class="footer">
+                        About   Press   Copyright   Contact us  Creators    Advertise   Developers
+                        <br>
+                        <br>
+                        Terms   PrivacyPolicy & Safety  How YouTube works   Test new features 
+
+                        <div id="credits">© 2024 Google LLC </div>
+                    </div>
+                            
+                </div>
+
+
+
+            </section>
+
+
+            <section class="main-container">
+
+                <div class="row">
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/XqGkKppIb9M?si=8Ceym6qDCKMWRJhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/5X0g9AtOW70"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/Qds5tztmb5g"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+                <div class="row">
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ow0b1SwZN3I?si=thI0RySI3EY7lDtT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/5X0g9AtOW70"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/Qds5tztmb5g"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+
+                <div class="row">
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lBKHAaq--FA?si=LkHAoafW9JPlLt5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                                
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/5X0g9AtOW70"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="video-container">
+                        
+                        <div class="video-link">
+                            <iframe src="https://www.youtube.com/embed/Qds5tztmb5g"> 
+                            </iframe>
+                        </div>
+
+                        <div class="about-vid">
+                    
+                            <div class="ytuberimg">
+                                <img src="male.png" >
+                            </div>
+
+                            <div class="video-title">
+                                <h5>Video Title should be as long as two lines to make appropriate boxes</h5>
+                                <div class="video-owner"> Lohith Chennuru</div>
+                                <div class="views"> 100K Views . <span class="time"> 15 mins ago</span></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+    
+    
+            </section>
+
+
+        </section>
+
+        
+    </section>
+    
+</body>
+</html>
